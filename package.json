@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap4-npm",
+  "name": "bootstrap4",
   "version": "1.0.0",
   "description": "Frontend build process using Node with BS4, Gulp, BrowserSync, Sass, Autoprefixer, Plumber, Sourcemaps and Uglify.",
   "main": "index.js",
