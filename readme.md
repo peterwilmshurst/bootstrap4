@@ -1,4 +1,4 @@
-# bootstrap4
+# Static development environment
 Frontend build process using Node with BS4, Gulp, BrowserSync, Sass, Autoprefixer, Plumber, Sourcemaps and Uglify.
 
 ## How to use:
