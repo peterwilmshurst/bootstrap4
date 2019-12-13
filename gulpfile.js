@@ -62,7 +62,7 @@ gulp.task('scripts', function () {
 
 // Compress images
 gulp.task('image', function () {
-    gulp.src('src/img/*')
+    gulp.src('src/img/**/*')
         .pipe(imagemin([
             imagemin.gifsicle({
                 interlaced: true
@@ -75,11 +75,11 @@ gulp.task('image', function () {
             }),
             imagemin.svgo({
                 plugins: [{
-                        removeViewBox: true
-                    },
-                    {
-                        cleanupIDs: false
-                    }
+                    removeViewBox: true
+                },
+                {
+                    cleanupIDs: false
+                }
                 ]
             })
         ]))
@@ -108,9 +108,9 @@ gulp.task('deploy', function () {
     // turn off buffering in gulp.src for best performance
 
     return gulp.src(globs, {
-            base: './public/',
-            buffer: false
-        })
+        base: './public/',
+        buffer: false
+    })
         .pipe(conn.newer('/public_html/')) // only upload newer files to this folder on the server
         .pipe(conn.dest('/public_html/'));
 
