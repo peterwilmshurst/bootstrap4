@@ -1,28 +1,14 @@
-/*!
- * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
- * Copyright 2011-2017 The Bootstrap Authors
- * Copyright 2011-2017 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+/// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
 
-// Core variables and mixins
-@import "variables";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
-
-// Reset and dependencies
-@import "../../node_modules/bootstrap/scss/normalize";
-@import "../../node_modules/bootstrap/scss/print";
-
-// Core CSS
-@import "../../node_modules/bootstrap/scss/reboot";
-@import "../../node_modules/bootstrap/scss/type";
-@import "../../node_modules/bootstrap/scss/images";
-@import "../../node_modules/bootstrap/scss/code";
-@import "../../node_modules/bootstrap/scss/grid";
-@import "../../node_modules/bootstrap/scss/tables";
-@import "../../node_modules/bootstrap/scss/forms";
-@import "../../node_modules/bootstrap/scss/buttons";
+// Optional
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
 
 // Components
 @import "../../node_modules/bootstrap/scss/transitions";
@@ -41,7 +27,6 @@
 @import "../../node_modules/bootstrap/scss/progress";
 @import "../../node_modules/bootstrap/scss/media";
 @import "../../node_modules/bootstrap/scss/list-group";
-@import "../../node_modules/bootstrap/scss/responsive-embed";
 @import "../../node_modules/bootstrap/scss/close";
 
 // Components w/ JavaScript

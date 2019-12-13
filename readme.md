@@ -19,7 +19,7 @@ Project startup which includes:
 
 - Download, unzip and rename with the name if your project
 - Load Terminal
-- Cd into your project directory
+- CD into your project directory
 - Type "npm install" to install the node_modules folder
 - Type "ncu" to see dependency version information (last update date 07/11/18)
 - Type "ncu -a" to update all dependencies to the latest version
