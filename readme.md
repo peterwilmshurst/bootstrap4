@@ -1,9 +1,10 @@
 # Initiate
+### Version 1.3
 
 Project startup which includes:
 
 - Node.js,
-- Gulp,
+- Gulp (v3.9.1)
 - Browsersync,
 - Htmlmin,
 - Sass,
@@ -15,12 +16,10 @@ Project startup which includes:
 - Gulp Util,
 - Vinyl FTP.
 
+Requires Node version **8.11.4**. It is recommended to use NVM to install Node.js. NVM allows you to manage multiple active node.js versions. For more information [click here](https://itnext.io/nvm-the-easiest-way-to-switch-node-js-environments-on-your-machine-in-a-flash-17babb7d5f1b "Node Version Manager")
+
 ## How to use:
 
-- Download, unzip and rename with the name if your project
-- Load Terminal
-- CD into your project directory
-- Type "npm install" to install the node_modules folder
-- Type "ncu" to see dependency version information (last update date 07/11/18)
-- Type "ncu -a" to update all dependencies to the latest version
+- Download, unzip and rename with the name of your project
+- Using a terminal, type "npm install" to install the node_modules folder
 - Type "gulp" to run the default gulpfile action
